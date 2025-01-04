@@ -54,7 +54,6 @@ body {
 }
 
 .Header, .Footer {
-  margin-top: 100px;
   width: 100%;
   background-color: #4da0f5;
   padding: 1rem;
