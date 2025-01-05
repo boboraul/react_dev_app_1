@@ -7,7 +7,7 @@ import EditPost from './EditPost';
 import PostPage from './PostPage';
 import About from './About';
 import Missing from './Missing';
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
 import useAxiosFetch from './CustomHooks/useAxiosFetch';
 import { useStoreActions } from 'easy-peasy';
@@ -26,15 +26,16 @@ function App() {
         <Header title="REACT JS Blog" />
         
           <Nav /> 
+        
           <Routes>
-            <Route path="/" element={<Home isLoading={isLoading} fetchError={fetchError}/>} />    
-            <Route exact path="/post" element={<NewPost />} />
-            <Route exact path="/edit/:id" element={<EditPost />} />
-
-            <Route path="/post/:id" element={<PostPage />} />         
-            <Route path="/about" element={<About/>} />
-            <Route path="*" element={<Missing/>} />
+            <Route path="/" element={<Home isLoading={isLoading} fetchError={fetchError} />} />
+            <Route path="/post" element={<NewPost />} />
+            <Route path="/edit/:id" element={<EditPost />} />
+            <Route path="/post/:id" element={<PostPage />} />
+            <Route path="/about" element={<About />} />
+            <Route path="*" element={<Missing />} />
           </Routes>
+        
         
         <Footer />
       
