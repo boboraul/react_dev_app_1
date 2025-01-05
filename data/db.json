@@ -2,12 +2,6 @@
   "posts": [
     {
       "userId": 1,
-      "id": "1",
-      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-    },
-    {
-      "userId": 1,
       "id": "2",
       "title": "qui est esse",
       "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
@@ -503,48 +497,6 @@
       "id": "85",
       "title": "dolore veritatis porro provident adipisci blanditiis et sunt",
       "body": "similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione"
-    },
-    {
-      "userId": 9,
-      "id": "86",
-      "title": "placeat quia et porro iste",
-      "body": "quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio"
-    },
-    {
-      "id": "87",
-      "title": "nostrumssss",
-      "datetime": "January, 04, 2025 8:01:44 PM",
-      "body": "eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est"
-    },
-    {
-      "userId": 9,
-      "id": "88",
-      "title": "sapiente omnis fugit eos",
-      "body": "consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed"
-    },
-    {
-      "id": "89",
-      "title": "sint soluta et vel magnam aut ut sed qui444444",
-      "datetime": "December, 10, 2024 8:04:53 PM",
-      "body": "repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas estf"
-    },
-    {
-      "userId": 9,
-      "id": "90",
-      "title": "ad iusto omnis odit dolor voluptatibus",
-      "body": "minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis"
-    },
-    {
-      "id": "9211",
-      "title": "bobo",
-      "datetime": "January, 05, 2025 5:25:31 PM",
-      "body": "test posts"
-    },
-    {
-      "id": 1,
-      "title": "bobo",
-      "datetime": "January, 05, 2025 6:03:21 PM",
-      "body": "sdafsf"
     }
   ]
 }
