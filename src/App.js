@@ -23,19 +23,17 @@ function App() {
   return (
     <div className="App">
       
-        <Header title="REACT JS Blog" />
-        
-          <Nav /> 
-        
-          <Routes>
-            <Route path="/" element={<Home isLoading={isLoading} fetchError={fetchError} />} />
-            <Route path="/post" element={<NewPost />} />
-            <Route path="/edit/:id" element={<EditPost />} />
-            <Route path="/post/:id" element={<PostPage />} />
-            <Route path="/about" element={<About />} />
-            <Route path="*" element={<Missing />} />
-          </Routes>
-        
+        <Header title="REACT JS Blog" />  
+        <Nav /> 
+        <Routes>
+          <Route path="/" element={<Home isLoading={isLoading} fetchError={fetchError}/>} />    
+          <Route exact path="/post" element={<NewPost />} />
+          <Route exact path="/edit/:id" element={<EditPost />} />
+
+          <Route path="/post/:id" element={<PostPage />} />         
+          <Route path="/about" element={<About/>} />
+          <Route path="*" element={<Missing/>} />
+        </Routes>
         
         <Footer />
       
