@@ -2,7 +2,7 @@
   "name": "app-02-a",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://boboraul.github.io/react_dev_app_1/",
+  
   "dependencies": {
     "axios": "^1.7.7",
     "date-fns": "^3.6.0",
@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.3.0"
   }
 }

@@ -7,7 +7,7 @@ const Home = ({ isLoading, fetchError }) => {
   return (
     <main className="Home">
         {isLoading && <p className='statusMsg'>Content is loading ...</p>}
-        {!isLoading && fetchError && <p className='statusMsg' style={{ color: 'red' }}>{fetchError}</p>}
+        {!isLoading && fetchError && <p className='statusMsg' style={{ color: 'red' }}>{fetchError} (could not connect with json-server)</p>}
         {!isLoading && !fetchError && (searchResults.length ? <Feed posts={searchResults} /> : 
         <p style={{ marginTop: "2rem" }}>
               No posts to display.
