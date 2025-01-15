@@ -22,7 +22,6 @@ console.log('test');
 
   return (
     <div className="App">
-      console.log('test');
         <Header title="REACT JS Blog" />  
         <Nav /> 
         <Routes>
