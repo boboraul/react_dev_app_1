@@ -14,7 +14,7 @@ import { useStoreActions } from 'easy-peasy';
 
 function App() {
   const setPosts = useStoreActions((actions) => actions.setPosts);
-  const { data, fetchError, isLoading } = useAxiosFetch('http://localhost:3300/posts');
+  const { data, fetchError, isLoading } = useAxiosFetch('https://backend-xm8e.onrender.com/posts');
 
   useEffect(() => {
     setPosts(data);
